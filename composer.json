@@ -1,0 +1,25 @@
+{
+    "name": "daiglej/di8",
+    "description": "A DI Container build from the ground up for PHP8 features.",
+    "minimum-stability": "stable",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Jonatha Daigle",
+            "email": "jonathan.daigle@noreply.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Daiglej\\DI8\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "psr/container": "^1.0",
+        "roave/doctrine-simplecache": "^2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4"
+    }
+}
